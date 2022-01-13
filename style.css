@@ -13,6 +13,11 @@ body {
   line-height: 1.5;
   color: #000;
   background-color: #fff;
+  width: 100%;
+}
+
+header{
+  background-image: url(image/fond-blanc.jpeg);
 }
 
 .top-logo {
@@ -30,7 +35,6 @@ main {
   display: flex;
   background: #000000;
   padding: 5rem;
-
 }
 
 section,
@@ -80,3 +84,62 @@ ul {
 .paddingt-5 {
   padding-top: 5px;
 }
+
+footer {
+  background-image: url(image/fond-blanc.jpeg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  color: black;
+  padding: 2rem 0;
+}
+
+footer a { color: black; font-weight: 700; }
+footer a:active { color: black; font-weight: 700; }
+footer a:hover { color: black; font-weight: 700; }
+footer a:enabled { color: black; font-weight: 700; }
+
+.upper-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  align-self: stretch;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer ul::after{
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11.5px;
+  width: 100%;
+  max-width: 100px; ;
+  height: 3px;
+  background-color: grey;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials svg {
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+}
+
