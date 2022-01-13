@@ -8,19 +8,11 @@ html, body {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  background: #ffffff;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #000;
+  background-color: #fff;
 }
 
 .top-logo {
